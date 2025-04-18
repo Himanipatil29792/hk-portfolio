@@ -11,7 +11,7 @@ const HeroImage = () => {
                           whileInView="show"
                           viewport={{ once: false, amount: 0 }} 
                           className="h-full flex item-center justify-center lg:my-0 sm:my-5">
-        <img src="../../images/profilepic.png" alt="Himani Patil" className="max-h-[350px] w-auto rounded-full" />
+        <img src="../../images/profile-pic.png" alt="Himani Patil" className="max-h-[350px] w-auto rounded-full" />
         <div className="absolute lg:bottom-[-30%] md:bottom-[-20%] sm:bottom-[-14%] -z-10 flex justify-center item-center animate-pulse">
             {/* <PiHexagonThin className="md:h-[90%] sm:h-[120%] min-h-[500px] w-auto text-cyan blur-md animate-[spin_20s_linear_infinite]" /> */}
             <LiaCircle className="md:h-[90%] sm:h-[120%] min-h-[550px] w-auto text-cyan blur-md animate-[spin_20s_linear_infinite]" />
