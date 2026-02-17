@@ -7,6 +7,15 @@ import { fadeIn } from '../framerMotion/variants';
 const experiences = [
     {
       job: "UI Developer",
+      company: "Genesys International Corporation Ltd, Mumbai",
+      date: "May 2025 - Present",
+      responsibilities: [
+        "Worked as a UI Developer, developing web applications and currently working on a GIS-based project.",
+        "Built responsive UI features and used Codebase for task tracking and project coordination.",
+      ],
+    },
+    {
+      job: "UI Developer",
       company: "Docintosh Technology, Mumbai",
       date: "Dec 2022 - Mar 2024",
       responsibilities: [
@@ -45,14 +54,14 @@ const AllExperience = () => {
         {experiences.map((experience, index)=>{
             return (<>
                 <SingleExperience key={index} experience={experience} />
-                {index < 2 ? (
+                {index < 3 ? (
                   <motion.div
                      variants={fadeIn("right", 0)}
                      initial="hidden"
                      whileInView="show"
                       viewport={{ once: false, amount: 0.7 }}
                       >
-                     <FaArrowRightLong className="text-6xl text-orange lg:block sm:hidden" /> 
+                     <FaArrowRightLong className="text-orange lg:block sm:hidden text-3xl" /> 
                   </motion.div>
                 ) : ("")}
             </>)

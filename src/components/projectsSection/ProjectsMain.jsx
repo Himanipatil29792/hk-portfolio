@@ -6,6 +6,14 @@ import { fadeIn } from '../framerMotion/variants';
 
 const projects = [
     {
+      name: "PMC-Pune Municipal Corporation",
+      para: "Worked on municipal data management for Pune Municipal Corporation (PMC), handling government records related to property tax, open plots, advertisement hoardings, cell towers, building layouts, and building deviations",
+      year: "HTML5 | CSS3 | JavaScript | jQuery | Bootstrap5",
+      align: "right",
+      image: "../../images/web-img6.png",
+      link: "https://oystermap.com/apps/pmc_dev/login.html",
+    },
+    {
       name: "Swiggy Clone",
       para:"Built a full-fledged food ordering app with real-time updates. Integrated Swiggy API to fetch restaurant and menu data dynamically. Implemented cart management using Redux Toolkit. Applied optimization techniques to reduce page sizes and load times. Develop user interface by using the React JS.",
       year: "React | Redux | React Router | Tailwind CSS",

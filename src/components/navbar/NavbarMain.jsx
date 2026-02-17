@@ -19,7 +19,7 @@ const NavbarMain = () => {
              <div className={`${menuOpen ? "sm:block" : "sm:hidden"} lg:block`}>
              <NavbarLinks/>
              </div>
-             <a href="../../resume/Himani-Jayesh-Patil-UI-developer-Resume.pdf" target='_black'>
+             <a href="../../resume/Himani-Jayesh-Patil-Resume-UI_Developer.pdf" target='_black'>
              <NavbarBtn />
              </a>
              
