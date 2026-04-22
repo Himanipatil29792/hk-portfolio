@@ -19,7 +19,7 @@ const NavbarMain = () => {
              <div className={`${menuOpen ? "sm:block" : "sm:hidden"} lg:block`}>
              <NavbarLinks/>
              </div>
-             <a href="../../resume/Himani_Jayesh_Patil_UI_Developer_2026-04-06.pdf" target='_black'>
+             <a href="../../resume/Himani_Patil_ReactUI_2026.pdf" target='_black'>
              <NavbarBtn />
              </a>
              
